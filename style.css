@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+* {
+    margin: 10px 0px;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    max-width: 600px;
+}
+
 body {
     font-size: 18px;
     font-family: 'Roboto', 'sans-serif';
@@ -14,11 +24,21 @@ body {
     color:#86898f;
 }
 
+li {
+    margin-left: 30px;
+}
+
+table {
+    margin-left: 10px;
+}
+
 .card {
-    margin: 10px;
     border: 0px solid lightblue;
     border-radius: 10px;
-    padding: 10px 20px;
+    padding: 20px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .hobby {
@@ -29,4 +49,82 @@ body {
 .exp {
     border-color: lightcoral;
     background-color: lightcoral;    
+}
+
+.contact {
+    width: 300px;
+    margin: 2px 0px;
+}
+
+.btn {
+    font-family: inherit;
+    background-color: mediumslateblue;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    color: darkorange;
+}
+
+.link {
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: red;
+    opacity: 0.8;
+    text-decoration: underline;
+}
+
+.link:visited {
+    color:darksalmon;
+}
+
+.img {
+    border-radius: 25px;
+    width: 300px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+
+.table {
+    width: 100%;
+    border: 0.5px solid black;
+    border-collapse:collapse;
+    margin: auto;
+    padding: auto;
+}
+
+.table td {
+    text-align: center;
+    border: 0.5px solid black;
+    padding: 5px;
+}
+
+.table td:hover {
+    background-color: rgba(187, 21, 21, 0.63);
+}
+
+
+.table th {
+    border: 2.5px solid black;
+}
+
+.table thead:first-child, .table td:first-child {
+    background-color: rgb(243, 94, 94);
+}
+
+.list {
+    padding: 0px 20px;
+}
+
+.list li {
+    color: #3e4450;
+    margin-bottom: 10px;
 }
